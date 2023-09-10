@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+
+
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+
+    <title>Coffee Caffine Café</title>
+</head>
+
+<body> 
+
+    <!--header-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="/img/logo.png" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1>Coffee Caffinated</h1>
+                    <h2>a better way to caffinate and make your personality as smooth as your drink</h2>
+                </div>
+                <div class="col-md-4 col-xl-2 mt-4">
+                    <a href="#reserveForm" class="btn btn-info btn-lg text-light text-nowrap">Drink Until You Drop</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="/img/logo.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="nucampNavbar"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-house fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa-solid fa-info fa-lg"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i> Sites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa-solid fa-address-card fa-lg"></i> Contact</a></li>
+                </ul>
+            </div>
+         </div>
+    </nav>
+
+<!--main section-->
+<main class="container">
+    
+    <!-- discover section -->
+    <section class="row row-content align-items-center">
+        <div class="col-sm-4 col-md-3 order-sm-last">
+            <h2 class="text-sm-end">Discover & Review</h2>
+        </div>
+        <div class="col">
+            <div class="d-flex">
+                <img class="me-3 " src="/img/coffee-thc-feature.jpg" alt="coffee-thc-feature" />
+                <div class="align-self-center">
+                    <h3>Our Calming Caffinated Coffies</h3>
+                    <p class="d-none d-sm-block">Will have you feeling especially razzle-dazzled</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature section -->
+    <section class="row row-content align-items-center">
+        <div class="col-sm-4 col-md-3">
+            <h2>Featured Campsites</h2>
+        </div>
+        <div class="col">
+            <div class="d-flex">
+                <div class="align-self-center">
+                    <h3>Coffee Sip Spots</h3>
+                    <p>We have deisgnated spots to sip your coffee quickly, and then laugh maniacally after</p>
+                </div>
+                <img src="/img/bootstrap-thumb.png" class="me-3 img-thumbnail" alt="React Lake"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- partner section -->
+    <section class="row row-content align-items-center">
+        <div class="col-sm-4 col-md-3 order-sm-last">
+            <h2 class="text-sm-end">Our Community Caffieners</h2>
+        </div>
+        <div class="col">
+            <div class="d-flex">
+                <img class="me-3 img-thumbnail" src="/img/coffee-thc-feature.jpg" alt="Cannabis-and-coffee.avif" />
+                <div class="align-self-center">
+                    <h3>Caffinated Clothes</h3>
+                    <p class="d-none d-sm-block">Enjoy your drinks wearing something you wouldn't mind if the coffee spilled on it!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="row row-content">
+        <div class="col-sm-9 mx-auto">
+            <div class="card">
+                <h3 class="card-header bg-info text-light">
+                    Order Ahead
+                </h3>
+<div class="card-body"> 
+    <form id="reserveForm">
+        <div class="row mb-3">
+            <label class="col-xs-12 col-sm-6 col-form-label">
+                Number of Coffees
+            </label> 
+            <div class="col-xs-12 col-sm-6">
+                <select class="form-control" name="Coffees" id="Coffees">
+                    <option>Select...</options>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-xs-12 col-sm-6 col-form-label">
+                Date
+            </label>
+            <div class="col-xs-12 col-sm-6">
+                <input class="form-control" type="Date" id="Date" name="Date" placeholder="Date"/>  
+            </div>
+        </div>
+        <div class="row mb-3">
+           <div class="col">
+            <button class="btn btn-primary" type="submit">Search</button>
+           </div> 
+        </div>
+    </form>
+</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--footer-->
+<footer>
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+  <a href="http://facebook.com/"><i class="fa-brands fa-facebook fa-xl"></i></a>
+  <a href="http://twitter.com/"><i class="fa-brands fa-twitter fa-xl"></i></a>
+  <a href="http://youtube.com/"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fa-solid fa-phone fa-lg text-primary"></i> 1-206-555-1234<br />
+                    <i class="fa-solid fa-envelope fa-lg text-primary"></i> campsites@nucamp.co
+                </div>                
+           </div>
+        </div>
+    </footer>
+
+<!-- Bootstrap JavaScript plugins -->
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Lobster, cursive;
+}
+
+h2 {
+  color: #30c5a5;
+}
+
+header h2 {
+  color: #c8f6ff;
+}
+
+footer {
+  background-image: linear-gradient(#c8f6ff, #fff);
+  padding: 20px 0;
+}
+
+header {
+  color: #fff;
+  background-image: linear-gradient(to right, #04835d, #30c5a5, #6ef8d6);
+  padding: 30px;
+}
+
+.navbar {
+  background-color: #1aa56b;
+}
+
+.carousel {
+  border: solid #04835d;
+}
+
+.carousel-caption {
+  background-color: #00000080;
+}
+
+/*# sourceMappingURL=aboutus.53678b06.css.map */
